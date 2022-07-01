@@ -1,0 +1,68 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+body{
+    background-color: rgb(243, 243, 137);
+}
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.catalogo{
+    text-align: center;
+}
+.nav li a{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li{
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+}
+h4{ 
+    background-color: rgb(255, 254, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box div{
+    width: auto;
+    height: auto;
+}
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    color: white;
+  }
+  p{
+      color: black;
+      background-color: rgb(255, 251, 208);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: large;
+  }
+  h3{
+      background-color: beige;
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: small;
+  }
