@@ -18,6 +18,11 @@ ul{
 .catalogo{
     text-align: center;
 }
+.nav{
+margin-left: 10%;
+
+}
+
 .nav li a{
     background-color: black;
     color: aliceblue;
@@ -69,4 +74,9 @@ footer {
 
   .logo{
     
+    margin-left: 43.5%;
+  }
+  .logo img{
+    width: 20%;
+    height: 20%;
   }
