@@ -1,0 +1,82 @@
+.parent{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+body{
+    background-image: url(fondo.png);
+    background-size: 10%;
+    background-repeat:repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style: none;
+}
+.busc{
+    position: sticky;
+    background-color:white ;
+}
+
+.catalogo{
+    margin-top: 1%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+
+
+    display: flex;
+    
+    
+}
+.catalogocaja{
+    border: 1px solid black;
+    text-align: center;
+}
+.nav{
+    margin-bottom: 1%;
+    margin-left: 36.5%;
+    background-color: gray;
+}
+
+.nav li a{
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.nav li{
+    float: left;
+}
+
+h4{ 
+    background-color: rgb(255, 254, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box div{
+    width: auto;
+    height: auto;
+}
+ .logo{
+        margin-left:40.5%;
+    margin-right: auto;
+    text-align: center;
+  }
+
+
+ 
+ 
+  
+    
