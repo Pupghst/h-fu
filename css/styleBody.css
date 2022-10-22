@@ -34,13 +34,13 @@ ul{
 .catalogocaja{
     border: 1px solid black;
     text-align: center;
-    
+    margin: 3%;
 }
 
 .catalogocaja img{
     border: 1px solid black;
     text-align: center;
-
+    margin: 5%;
 }
 .nav{
     margin-bottom: 1%;
