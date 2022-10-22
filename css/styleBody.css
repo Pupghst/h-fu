@@ -42,20 +42,29 @@ ul{
     text-align: center;
     margin: 5%;
 }
-.catalogo p{
+
+.catalogo h2{
     margin-left: 5%;
     margin-right: 5%;
-    background-color: gray;
+    background-color: lightgray;
+    color: black;   
+}
+
+.catalogo p{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightgray;
     color: black;
 }
 .nav{
     margin-bottom: 1%;
     margin-left: 36.5%;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .nav li a{
-    background-color: gray;
+    background-color: lightgray;
     color: black;
     text-decoration: none;
     text-align: center;
