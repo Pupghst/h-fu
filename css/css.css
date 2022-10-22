@@ -31,12 +31,13 @@ ul{
     margin-top: 1%;
     margin-right:auto;
     margin-left: auto;
+    padding: auto   ;
+    width: 80%;
     background-color: white;
     color: black;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-gap: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
 
 
 }
