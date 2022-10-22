@@ -6,10 +6,9 @@
 
 
 body{
-    background-image: url(/fondo.png);
-    background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(fondo.png);
+   background-size: 10%;
+    background-repeat:repeat;
     background-position: center center;
     background-attachment: fixed;
 }
