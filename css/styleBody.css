@@ -29,7 +29,7 @@ ul{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
-    grid-gap: 1%;
+   
 }
 .catalogocaja{
     border: 1px solid black;
@@ -41,6 +41,12 @@ ul{
     border: 1px solid black;
     text-align: center;
     margin: 5%;
+}
+.catalogo p{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: gray;
+    color: black;
 }
 .nav{
     margin-bottom: 1%;
