@@ -26,15 +26,18 @@ ul{
     background-color: white;
     color: black;
     border: 2px black solid;
-
-
     display: flex;
-    
-    
 }
 .catalogocaja{
     border: 1px solid black;
     text-align: center;
+    
+}
+
+.catalogocaja img{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5% ;
 }
 .nav{
     margin-bottom: 1%;
