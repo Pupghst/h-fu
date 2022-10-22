@@ -26,36 +26,52 @@ ul{
     background-color: white;
     color: black;
     border: 2px black solid;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+   
 }
 .catalogocaja{
     border: 1px solid black;
     text-align: center;
-    
+    margin: 3%;
 }
 
 .catalogocaja img{
     border: 1px solid black;
     text-align: center;
-    margin-top: 5% ;
-}
-.nav{
-    margin-bottom: 1%;
-    margin-left: 36.5%;
-    background-color: gray;
+    margin: 5%;
 }
 
-.nav li a{
-    background-color: gray;
+.catalogo h2{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightgray;
+    color: black;   
+}
+
+.catalogo p{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightgray;
     color: black;
-    text-decoration: none;
-    text-align: center;
+}
+.nav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
     padding: 10px;
-    display: block;
+    font-size: 200%;
+    
 }
-.nav li{
-    float: left;
+
+.nav a{
+    text-decoration: none;
+    color: black;
 }
+
 
 h4{ 
     background-color: rgb(255, 254, 215);
