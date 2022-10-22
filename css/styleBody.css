@@ -58,22 +58,20 @@ ul{
     color: black;
 }
 .nav{
-    margin-bottom: 1%;
-    margin-left: 36.5%;
     background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    padding: 10px;
+    font-size: 200%;
+    
 }
 
-.nav li a{
-    background-color: lightgray;
-    color: black;
+.nav a{
     text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    display: block;
+    color: black;
 }
-.nav li{
-    float: left;
-}
+
 
 h4{ 
     background-color: rgb(255, 254, 215);
