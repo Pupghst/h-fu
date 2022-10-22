@@ -26,7 +26,10 @@ ul{
     background-color: white;
     color: black;
     border: 2px black solid;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    grid-gap: 1%;
 }
 .catalogocaja{
     border: 1px solid black;
@@ -37,7 +40,7 @@ ul{
 .catalogocaja img{
     border: 1px solid black;
     text-align: center;
-    margin-top: 5% ;
+
 }
 .nav{
     margin-bottom: 1%;
