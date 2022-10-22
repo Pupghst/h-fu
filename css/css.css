@@ -33,13 +33,18 @@ ul{
     margin-left: auto;
     background-color: white;
     color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
 
 
 }
 .nav{
     
-    margin-top: 1%;
-    margin-left:38.5%;
+    margin-left:auto;
+    margin-right: auto;
+    
   
 }
 
@@ -94,7 +99,8 @@ footer {
   }
 
   .logo{
-    margin-right: 1.5%;
+    margin-left:auto;
+    margin-right: auto;
     text-align: center;
   }
  
