@@ -47,8 +47,8 @@ ul{
     margin-left: 5%;
     margin-right: 5%;
     background-color: lightgray;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
+    border-top-left-radius: 50%;
+    
     font-size: 150%;
     color: black;   
 }
