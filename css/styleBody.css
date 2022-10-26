@@ -47,6 +47,9 @@ ul{
     margin-left: 5%;
     margin-right: 5%;
     background-color: lightgray;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    font-size: 150%;
     color: black;   
 }
 
@@ -56,6 +59,7 @@ ul{
     margin-right: 5%;
     background-color: lightgray;
     color: black;
+    font-size: 80%;
 }
 .nav{
     background-color: lightgray;
