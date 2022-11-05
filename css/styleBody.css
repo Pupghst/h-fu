@@ -99,17 +99,8 @@ h4{
     text-align: center;
 }*/
 
-.progreso-contenedor{
-    /*color: aliceblue;*/
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    max-width: 100%;
-    width: 350px;
-}
-
-.contenedor{
-    text-align: center;
+*{
+    box-sizing: border-box;
 }
 
 .padre{
@@ -121,6 +112,21 @@ h4{
     overflow: hidden;
     margin: 0;
 }
+
+.progreso-contenedor{
+    /*color: aliceblue;*/
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
+
+.contenedor{
+    text-align: center;
+}
+
 
 .progreso{
     background-color: #3498db;
