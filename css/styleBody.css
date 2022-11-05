@@ -158,6 +158,7 @@ h4{
     width: 30px;
     background-color: #fff;
     color: #999;
+    border-radius: 50%; /*doy forma circular a los numeros*/
 }
 
 
