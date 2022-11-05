@@ -135,7 +135,7 @@ h4{
 
 
 .progreso{
-    background-color: #3498db;
+    background-color: var(--linea--borde--relleno);
     position: absolute;
     top: 50%;
     left: 0;
@@ -148,7 +148,7 @@ h4{
 
 .progreso-contenedor::before{
     content: ''; /*Con esto logro que se muestre la barra*/
-    background-color: #e0e0e0;
+    background-color: var(--linea--borde--vacio);
     position: absolute;
     top: 50%;
     left: 0;
@@ -168,12 +168,12 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #e0e0e0;
+    border: 3px solid var(--linea--borde--vacio);
     transition: 0,4s ease;
 }
 
 .circle.active{
-    border-color: #3498db;
+    border-color: var(--linea--borde--relleno);
 }
 
 
