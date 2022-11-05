@@ -99,6 +99,12 @@ h4{
     text-align: center;
 }*/
 
+/*creo dos tipos de variables dentro de la pseudo clase root*/
+:root{
+    --linea--borde--relleno: #3498db;
+    --linea--borde--vacio: #e0e0e0;
+}
+
 *{
     box-sizing: border-box;
 }
