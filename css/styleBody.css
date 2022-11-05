@@ -153,6 +153,12 @@ h4{
     transition: 0,4s ease; /*Tiempo de transición */
 }
 
+.circle{
+    height: 30px;
+    width: 30px;
+    
+}
+
 
 
 
