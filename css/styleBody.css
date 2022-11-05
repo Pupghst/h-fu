@@ -1,13 +1,10 @@
-*{
-    background-color: aliceblue;
-}
 /*.parent{
     display: grid;
     grid-template-rows: auto;
 }
 
 body{
-    background-image: url(fondo.png);
+    /*background-image: url(fondo.png);
     background-size: 10%;
     background-repeat:repeat;
     background-position: center center;
@@ -124,11 +121,13 @@ h4{
 
 .progreso{
     background-color: #3498db;
-    width: 50%;
+    width: 12%;
     position: absolute;
     height: 4px;
     bottom: 20px;
     left: 50;
+    z-index: -1; /*Esto sirve para que la barra esté detrás de los numeros*/
+    transition: 0,4s ease; /*Tiempo de transición */
 }
 
 
