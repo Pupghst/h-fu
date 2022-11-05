@@ -176,6 +176,17 @@ h4{
     border-color: var(--linea--borde--relleno);
 }
 
+.btn{
+    background-color: var(--linea--borde--relleno);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer; /*cuando se pasa el mouse por encima, se cambia la flecha por la mano*/
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+
 
 
 
