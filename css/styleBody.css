@@ -156,7 +156,8 @@ h4{
 .circle{
     height: 30px;
     width: 30px;
-    
+    background-color: #fff;
+    color: #999;
 }
 
 
