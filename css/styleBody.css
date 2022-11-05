@@ -117,15 +117,31 @@ h4{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
 
 .progreso{
     background-color: #3498db;
-    width: 12%;
     position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
     height: 4px;
-    bottom: 20px;
-    left: 50;
+    width: 50%;
+    z-index: -1; /*Esto sirve para que la barra esté detrás de los numeros*/
+    transition: 0,4s ease; /*Tiempo de transición */
+}
+
+.progreso-contenedor::before{
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 50%;
     z-index: -1; /*Esto sirve para que la barra esté detrás de los numeros*/
     transition: 0,4s ease; /*Tiempo de transición */
 }
