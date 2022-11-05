@@ -93,10 +93,14 @@ h4{
     width: auto;
     height: auto;
 }
- .logo{
-        margin-left:40.5%;
+.logo{
+    margin-left:40.5%;
     margin-right: auto;
     text-align: center;
+}
+.progreso-contenedor{
+    display: flex;
+    color: aliceblue;
 }
 
 
