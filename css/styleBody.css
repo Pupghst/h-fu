@@ -115,6 +115,13 @@ h4{
     text-align: center;
 }
 
+.padre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
