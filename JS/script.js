@@ -12,3 +12,11 @@ siguiente.addEventListener('click', () =>{ //echucha el click y ejecuta una func
         currentActive = circulos.length;    //con este if la variable currentActive nunca va a ser mayor a la cantidad de circulos
     }
 });
+
+anterior.addEventListener('click', () =>{ 
+    currentActive--;
+
+    if (currentActive > 1){
+        currentActive = 1;    
+    }
+});
