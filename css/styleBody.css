@@ -60,6 +60,8 @@ ul{
     border-bottom-right-radius:50% ;
     background-color: lightgray;
     color: black;
+    padding-bottom:25px ;
+    padding-left:7px ;
     font-size: 80%;    
 }
 .nav{
