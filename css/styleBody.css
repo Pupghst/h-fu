@@ -5,7 +5,7 @@
 
 body{
     background-image: url(fondo.png);
-    background-size: 10%;
+    background-size: 100px;
     background-repeat:repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -20,9 +20,9 @@ ul{
 }
 
 .catalogo{
-    margin-top: 1%;
-    margin-right:10%;
-    margin-left:10%;
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left:150px;
     background-color: white;
     color: black;
     border: 2px black solid;
@@ -34,18 +34,18 @@ ul{
 .catalogocaja{
     border: 1px solid black;
     text-align: center;
-    margin: 3%;
+    margin: 6px;
 }
 
 .catalogocaja img{
     border: 1px solid black;
     text-align: center;
-    margin: 5%;
+    margin: 7px;
 }
 
 .catalogo h2{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7px;
+    margin-right: 7px;
     background-color: lightgray;
     border-top-left-radius: 50%;
     
@@ -55,12 +55,12 @@ ul{
 
 .catalogo p{
     
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7px;
+    margin-right: 7px;
     border-bottom-right-radius:50% ;
     background-color: lightgray;
     color: black;
-    font-size: 80%;
+    font-size: 80%;    
 }
 .nav{
     background-color: lightgray;
