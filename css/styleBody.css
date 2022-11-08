@@ -1,3 +1,6 @@
+:root{
+    
+}
 .parent{
     display: grid;
     grid-template-rows: auto;
@@ -48,7 +51,6 @@ ul{
     margin-right: 7px;
     background-color: lightgray;
     border-top-left-radius: 50%;
-    
     font-size: 150%;
     color: black;   
 }
