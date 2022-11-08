@@ -1,7 +1,7 @@
 :root{
     --blanco:#ffffff;
     --negro:#000000;
-    --ligthgay:#d8cece;
+    --ligthgray:#d8cece;
 }
 .parent{
     display: grid;
