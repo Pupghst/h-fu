@@ -1,5 +1,6 @@
 :root{
     --blanco:#ffffff;
+    --negro:#000000;
 }
 .parent{
     display: grid;
