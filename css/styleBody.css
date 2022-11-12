@@ -44,7 +44,9 @@ ul{
     color: var(--negro);
     border: 2px var(--negro) solid;
 
-   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
 }
 .formulario{
     font-size: 150%;
