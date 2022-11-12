@@ -66,3 +66,31 @@
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+
+
+.red-social{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#circulo1{
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 100%;
+}
+#circulo2{
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+
+#circulo1 > #instalogo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
