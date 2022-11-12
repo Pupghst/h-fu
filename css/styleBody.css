@@ -71,20 +71,33 @@ ul{
     grid-column-gap: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
-    /*background-color: lightgray;
+    
+    /*
+    background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0%;
     padding: 10px;
     font-size: 200%;*/
 }
+
 .boton{
     font-size: 20px;
     position: relative;
 }
 
+.boton span{
+    position: relative;
+    z-index: 2; /*para que esté delante del color*/
+}
+
 .boton::after{ /*ayuda a crear un elemento dentro del boton*/
     content: ""; /*con la propiedad de content agrego el elemento */
+    height: 100%;
+    width: 100%;
+    background-color: #c4b107;
+    position: absolute;
+    z-index: 1; /*agrego z-index para que esté detrás del texto*/
 }
 
 .nav a{
