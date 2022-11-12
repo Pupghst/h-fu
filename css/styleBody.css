@@ -52,7 +52,7 @@ ul{
     text-align: center;
     font-size: 150%;
     display: grid;
-    grid-template-columns:repeat(7,1fr);
+    grid-template-columns:auto;
     grid-template-rows:auto;
     margin: 10px 10px;
     border-bottom-right-radius:50%  ;
@@ -60,10 +60,12 @@ ul{
     background-color: var(--ligthgray);
 }
 .formulario h1{
-    
+    text-align: center;
 }
 .formulario form{
-    
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
 }
 .catalogocaja{
     border: 1px solid var(--negro);
