@@ -8,7 +8,7 @@ let currentActive = 1; //variable para saber a qué nivel de los pasos vamos
 siguiente.addEventListener('click', () => {  //escucha el click y ejecuta una funcion
     currentActive++;
 
-    if (currentActive > circulos.le){
+    if (currentActive > circulos.length){
         currentActive = circulos.length;    //con este if la variable currentActive nunca va a ser mayor a la cantidad de circulos
     }
 
