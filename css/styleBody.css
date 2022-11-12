@@ -63,12 +63,14 @@ ul{
     font-size: 80%;
 }
 .nav{
-    background-color: lightgray;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0%;
     padding: 10px;
-    font-size: 200%;
+    font-size: 200%;*/
     
 }
 
