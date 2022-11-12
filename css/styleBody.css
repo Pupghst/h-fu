@@ -77,11 +77,14 @@ ul{
     margin-bottom: 0%;
     padding: 10px;
     font-size: 200%;*/
-    
 }
-
 .boton{
     font-size: 20px;
+    position: relative;
+}
+
+.boton::after{ /*ayuda a crear un elemento dentro del boton*/
+    content: ""; /*con la propiedad de content agrego el elemento */
 }
 
 .nav a{
