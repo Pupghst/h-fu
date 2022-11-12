@@ -41,7 +41,9 @@ ul{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:auto;
-    
+    margin: 10px 10px;
+    border-bottom-right-radius:50%  ;
+    border-top-left-radius: 50%;
     background-color: var(--ligthgray);
 }
 .catalogocaja{
