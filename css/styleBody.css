@@ -45,18 +45,22 @@ ul{
     border: 2px var(--negro) solid;
 
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns:auto;
     grid-template-rows: auto;
 }
 .formulario{
+    text-align: center;
     font-size: 150%;
     display: grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(7,1fr);
     grid-template-rows:auto;
     margin: 10px 10px;
     border-bottom-right-radius:50%  ;
     border-top-left-radius: 50%;
     background-color: var(--ligthgray);
+}
+.formulario form{
+    
 }
 .catalogocaja{
     border: 1px solid var(--negro);
