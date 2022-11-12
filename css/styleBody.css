@@ -36,6 +36,9 @@ ul{
     grid-template-rows: auto;
    
 }
+.formulario{
+    
+}
 .catalogocaja{
     border: 1px solid var(--negro);
     text-align: center;
