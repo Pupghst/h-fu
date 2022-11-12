@@ -66,6 +66,10 @@ ul{
     display: grid;
     grid-template-columns:auto;
     grid-template-rows:auto;
+    grid-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px 150px;
 }
 .catalogocaja{
     border: 1px solid var(--negro);
