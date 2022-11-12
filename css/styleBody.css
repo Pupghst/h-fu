@@ -65,6 +65,8 @@ ul{
 .nav{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    width: 50%;
+    height: 60px;
     /*background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
