@@ -39,8 +39,8 @@ ul{
 .formulario{
     font-size: 150%;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:auto;
 }
 .catalogocaja{
     border: 1px solid var(--negro);
