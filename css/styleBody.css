@@ -103,6 +103,8 @@ ul{
     position: absolute;
     z-index: 1; /*agrego z-index para que esté detrás del texto*/
     top: -80px;
+    left: 0;
+    transition: ease-in-out all;
 }
 
 .nav a{
