@@ -36,6 +36,16 @@ ul{
     grid-template-rows: auto;
    
 }
+.pedidos{
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left:150px;
+    background-color:var(--blanco);
+    color: var(--negro);
+    border: 2px var(--negro) solid;
+
+   
+}
 .formulario{
     font-size: 150%;
     display: grid;
