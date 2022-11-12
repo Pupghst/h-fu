@@ -41,6 +41,8 @@ ul{
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows:auto;
+    
+    background-color: var(--ligthgray);
 }
 .catalogocaja{
     border: 1px solid var(--negro);
