@@ -89,7 +89,7 @@ ul{
     transition: .3s ease all;
     overflow: hidden;
     cursor: pointer;
-    background-color: white;
+    background-color: lightgray;
 }
 
 .boton span{
