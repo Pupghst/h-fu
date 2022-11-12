@@ -48,6 +48,12 @@ ul{
     grid-template-columns:auto;
     grid-template-rows: auto;
 }
+
+.form{
+    background-color: var(--blanco);
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+}
 .formulario{
     text-align: center;
     font-size: 150%;
