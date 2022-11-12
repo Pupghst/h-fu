@@ -53,6 +53,15 @@ ul{
     background-color: var(--blanco);
     border: var(--negro) 1px solid;
     border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.form2{
+    background-color: var(--blanco);
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
 }
 .formulario{
     text-align: center;
