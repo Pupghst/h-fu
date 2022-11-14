@@ -65,12 +65,19 @@ ul{
     text-align: center;
     font-size: 100%;
 }
+
+
 .submit{
     margin: 10px 550px;
     border: var(--negro) 1px solid;
     border-radius: 20px;
     font-size: 100%;
     text-align: center;
+    transform: scale(0.98s);
+}
+
+.submit:active{
+    transform: scale(0.98);
 }
 .formulario{
     text-align: center;
