@@ -34,7 +34,7 @@ ul{
     border: 2px var(--negro) solid;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto;
+
    
 }
 .pedidos{
@@ -167,10 +167,11 @@ ul{
     
     margin-left: 7px;
     margin-right: 7px;
+    margin-bottom: 7px;
     border-bottom-right-radius:50% ;
     background-color: var(--ligthgray);
     color: var(--negro);
-    padding-bottom:25px ;
+    padding-bottom:auto ;
     padding-left:7px ;
     font-size: 80%;    
 }
