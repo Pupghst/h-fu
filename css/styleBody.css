@@ -66,19 +66,23 @@ ul{
     font-size: 100%;
 }
 
-
+@keyframes mover_boton{
+    
+}
 .submit{
-    margin: 10px 550px;
+    width: 200px;
     border: var(--negro) 1px solid;
     border-radius: 20px;
     font-size: 100%;
     text-align: center;
     transform: scale(0.98s);
+   
 }
 
 .submit:active{
-    transform: scale(0.98);
+    transform: scale(0.98);   /*efecto al tocar boton*/
 }
+
 .formulario{
     text-align: center;
     font-size: 150%;
