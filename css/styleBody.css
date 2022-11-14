@@ -68,10 +68,12 @@ ul{
 
 @keyframes mover_boton{
     0%{left: 0;}
-    25%{left: 500px;}
+    25%{left: 550px;}
+    50%{left: -550px;}
+    100%{left: 0;}
 }
 .submit{
-    width: 200px;
+    margin: 10px 550px;
     border: var(--negro) 1px solid;
     border-radius: 20px;
     font-size: 100%;
@@ -79,6 +81,8 @@ ul{
     transform: scale(0.98s);
     position: relative;/*sin esta posicion no se podría mover el boton*/
     animation-name: mover_boton;
+    animation-duration: 3s;
+    animation-timing-function: linear; /*el cuadrado se mueve siempre a la misma velocidad*/
 
 }
 
