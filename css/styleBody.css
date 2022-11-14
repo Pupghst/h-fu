@@ -84,7 +84,7 @@ ul{
 
 }
 
-.submit:active{
+.submit2{
     transform: scale(0.98s);
     position: relative;/*sin esta posicion no se podría mover el boton*/
     animation-name: mover_boton;
