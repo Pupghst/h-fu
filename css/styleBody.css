@@ -49,6 +49,18 @@ ul{
     grid-template-columns:auto;
     grid-template-rows: auto;
 }
+.informacion{
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left:150px;
+    background-color:var(--blanco);
+    color: var(--negro);
+    border: 2px var(--negro) solid;
+    text-align: center;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;  
+}
 
 .form{
     background-color: var(--blanco);
