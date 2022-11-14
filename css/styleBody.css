@@ -77,6 +77,8 @@ ul{
     font-size: 100%;
     text-align: center;
     transform: scale(0.98s);
+    position: relative;/*sin esta posicion no se podría mover el boton*/
+    
 }
 
 .submit:active{
