@@ -192,9 +192,5 @@ h4{
     text-align: center;
   }
 
-@keyframes mover{
-    0%{
-        transform: translate(100%);
-    }
-}
+
 
