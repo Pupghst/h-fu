@@ -68,8 +68,10 @@ ul{
 
 @keyframes mover_boton{
     0%{left: 0;}
-    25%{left: 1%;}
-    50%{left: -1%;}
+    25%{left: 0.5%;}
+    37%{left: -0.5%;}
+    50%{left: 0.5%;}
+    75%{left: -0.5%;}
     100%{left: 0;}
 }
 .submit{
