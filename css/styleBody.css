@@ -67,7 +67,8 @@ ul{
 }
 
 @keyframes mover_boton{
-    
+    0%{left: 0;}
+    25%{left: 500px;}
 }
 .submit{
     width: 200px;
@@ -76,7 +77,6 @@ ul{
     font-size: 100%;
     text-align: center;
     transform: scale(0.98s);
-   
 }
 
 .submit:active{
