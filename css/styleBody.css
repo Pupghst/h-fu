@@ -8,7 +8,22 @@
     display: grid;
     grid-template-rows: auto;
 }
-
+@keyframes mover_boton{
+    0%{left: 0;}
+    25%{left: 0.5%;}
+    37%{left: -0.5%;}
+    50%{left: 0.5%;}
+    75%{left: -0.5%;}
+    100%{left: 0;}
+}
+@keyframes mover_pagina{
+    0%{left: 0;}
+    25%{left: 0.1%;}
+    37%{left: -0.1%;}
+    50%{left: 0.1%;}
+    75%{left: -0.1%;}
+    100%{left: 0;}
+}
 body{
     background-image: url(fondo.png);
     background-size: 100px;
@@ -86,14 +101,6 @@ ul{
     margin: 2% 10%;
 }
 
-@keyframes mover_boton{
-    0%{left: 0;}
-    25%{left: 0.5%;}
-    37%{left: -0.5%;}
-    50%{left: 0.5%;}
-    75%{left: -0.5%;}
-    100%{left: 0;}
-}
 .submit{
     margin: 10px 550px;
     border: var(--negro) 1px solid;
@@ -104,7 +111,7 @@ ul{
 
 }
 
-.submit2{
+.errorsubmit{
     color: var(--red);
     margin: 10px 550px;
     border: var(--negro) 1px solid;
@@ -114,6 +121,16 @@ ul{
     transform: scale(0.98s);
     position: relative;/*sin esta posicion no se podría mover el boton*/
     animation-name: mover_boton;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;  /*efecto al tocar boton*/
+}
+.errorpagina{
+    color: var(--red);
+    font-size: 100%;
+    text-align: center;
+    transform: scale(0.98s);
+    position: relative;/*sin esta posicion no se podría mover el boton*/
+    animation-name: mover_pagina;
     animation-duration: 0.1s;
     animation-timing-function: linear;  /*efecto al tocar boton*/
 }
