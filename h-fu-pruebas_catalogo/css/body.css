@@ -176,3 +176,17 @@ ul{
     padding-left:7px ;
     font-size: 80%;    
 }
+.nav{
+    background-color:var(--ligthgray);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    padding: 10px;
+    font-size: 200%;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--negro);
+}
