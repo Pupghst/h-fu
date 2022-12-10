@@ -5,3 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 /*:::::Pie de Pagina*/
+.pie-pagina{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
