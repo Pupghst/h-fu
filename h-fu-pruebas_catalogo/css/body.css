@@ -196,3 +196,17 @@ h4{
     text-align: center;
     font-size: larger;
 }
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box div{
+    width: auto;
+    height: auto;
+}
+ .logo{
+        margin-left:40.5%;
+    margin-right: auto;
+    text-align: center;
+  }
