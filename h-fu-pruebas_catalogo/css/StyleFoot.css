@@ -56,3 +56,12 @@
 .pie-pagina .grupo-1 .red-social a:hover{
     color: black;
 }
+.pie-pagina .grupo-2{
+    background-color: lightgray;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
