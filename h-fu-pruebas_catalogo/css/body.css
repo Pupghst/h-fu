@@ -144,3 +144,35 @@ ul{
     padding-bottom: 50px;
     margin: 10px 150px;
 }
+.catalogocaja{
+    border: 1px solid var(--negro);
+    text-align: center;
+    margin: 6px;
+}
+
+.catalogocaja img{
+    border: 1px solid var(--negro);
+    text-align: center;
+    margin: 7px;
+}
+
+.catalogo h2{
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: var(--ligthgray);
+    border-top-left-radius: 50%;
+    font-size: 150%;
+    color: var(--negro);   
+}
+
+.catalogo p{
+    
+    margin-left: 7px;
+    margin-right: 7px;
+    border-bottom-right-radius:50% ;
+    background-color: var(--ligthgray);
+    color: var(--negro);
+    padding-bottom:25px ;
+    padding-left:7px ;
+    font-size: 80%;    
+}
