@@ -66,3 +66,19 @@ ul{
     grid-template-columns:auto;
     grid-template-rows: auto;  
 }
+.form{
+    background-color: var(--blanco);
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 100%;
+}
+.form2{
+    background-color: var(--blanco);
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+    font-size: 100%;
+}
