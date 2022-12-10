@@ -82,3 +82,10 @@ ul{
     text-align: center;
     font-size: 100%;
 }
+.informacion h1{
+    font-size: 250%;
+
+}
+.informacion p{
+    margin: 2% 10%;
+}
