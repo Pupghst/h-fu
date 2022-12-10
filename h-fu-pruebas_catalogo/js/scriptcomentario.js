@@ -10,3 +10,22 @@ document.getElementById("capa").innerHTML=a1;
 element.classList.add("submit");
 element.style.setProperty("color", "green");
 
+}else{
+    if(texto.length<1){
+   
+    element.classList.remove("submit");
+    a1= "no introdujo nombre";
+    document.getElementById("capa").innerHTML=a1;
+    element.classList.add("submit2");
+    
+    
+    }else{
+    
+    element.classList.remove("submit");
+    a1= "no introdujo numero";
+    document.getElementById("capa").innerHTML=a1;
+    element.classList.add("submit2");
+    }
+}
+
+}
