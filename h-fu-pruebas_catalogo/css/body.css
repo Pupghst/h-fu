@@ -4,3 +4,14 @@
     --ligthgray:#d8cece;
     --red:#f70404;
 }
+.parent{
+    display: grid;
+    grid-template-rows: auto;
+}
+body{
+    background-image: url(fondo.png);
+    background-size: 100px;
+    background-repeat:repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
