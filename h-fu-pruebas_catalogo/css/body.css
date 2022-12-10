@@ -190,3 +190,9 @@ ul{
     text-decoration: none;
     color: var(--negro);
 }
+h4{ 
+    background-color: var(--blanco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
