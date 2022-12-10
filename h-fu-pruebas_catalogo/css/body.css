@@ -97,3 +97,26 @@ ul{
     75%{left: -0.5%;}
     100%{left: 0;}
 }
+.submit{
+    margin: 10px 550px;
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+    font-size: 100%;
+    text-align: center;
+    /*el cuadrado se mueve siempre a la misma velocidad*/
+
+}
+
+.submit2{
+    color: var(--red);
+    margin: 10px 550px;
+    border: var(--negro) 1px solid;
+    border-radius: 20px;
+    font-size: 100%;
+    text-align: center;
+    transform: scale(0.98s);
+    position: relative;/*sin esta posicion no se podría mover el boton*/
+    animation-name: mover_boton;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;  /*efecto al tocar boton*/
+}
