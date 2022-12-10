@@ -120,3 +120,27 @@ ul{
     animation-duration: 0.1s;
     animation-timing-function: linear;  /*efecto al tocar boton*/
 }
+.formulario{
+    text-align: center;
+    font-size: 150%;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    margin: 10px 10px;
+    border-bottom-right-radius:50%  ;
+    border-top-left-radius: 50%;
+    background-color: var(--ligthgray);
+}
+.formulario h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.formulario form{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    grid-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px 150px;
+}
