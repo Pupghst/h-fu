@@ -193,6 +193,7 @@ ul{
 .nav a{
     text-decoration: none;
     color: var(--negro);
+    text-shadow: 2px 2px 2px #6e5858;
 }
 h4{ 
     background-color: var(--blanco);
@@ -200,10 +201,19 @@ h4{
     text-align: center;
     font-size: larger;
 }
-h1{
-    font-family: 'Courier New', Courier, monospace;
+.colorcito{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #211e1e;
-    border-radius: 30px;
+    color: #584949;
+    font-weight: bold;
+    background: linear-gradient(150deg, #dab8b8,  #bd9e8d, #a78383);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 .box {
     display: flex;
