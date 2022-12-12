@@ -52,7 +52,7 @@ ul{
     grid-template-rows: auto;
 }
 .zoom {
-    transition: transform .2s; 
+    transition: transform .3s; 
 }
 .zoom:hover {
     transform: scale(1.15); 
