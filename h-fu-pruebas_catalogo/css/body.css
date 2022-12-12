@@ -195,6 +195,11 @@ ul{
     color: var(--negro);
     text-shadow: 2px 2px 2px #6e5858;
 }
+.nav a:hover{
+    transition: all 0.5s;
+    transform: scale(1.15);
+    display: inline-block;
+}
 h4{ 
     background-color: var(--blanco);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
