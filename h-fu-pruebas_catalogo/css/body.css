@@ -152,13 +152,13 @@ ul{
 .catalogocaja{
     border: 1px solid var(--negro);
     text-align: center;
-    margin: 6px;
+    margin: 4px;
 }
 
 .catalogocaja img{
     border: 1px solid var(--negro);
     text-align: center;
-    margin: 7px;
+    margin: 5px;
     border-radius: 15px;
 }
 
