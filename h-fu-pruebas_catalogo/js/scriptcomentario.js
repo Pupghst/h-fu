@@ -5,7 +5,7 @@ function crearcomentario(texto,texto2){
 if(texto.length>=1 && texto2.length>=1){
     
 element.classList.remove("submit2");
-a1= "ya te mandaremos un mensaje " + texto;
+a1= "Ya te mandaremos un mensaje " + texto;
 document.getElementById("capa").innerHTML=a1;
 element.classList.add("submit");
 element.style.setProperty("color", "green");
@@ -14,7 +14,7 @@ element.style.setProperty("color", "green");
     if(texto.length<1){
    
     element.classList.remove("submit");
-    a1= "no introdujo nombre";
+    a1= "No introdujo nombre";
     document.getElementById("capa").innerHTML=a1;
     element.classList.add("submit2");
     
@@ -22,7 +22,7 @@ element.style.setProperty("color", "green");
     }else{
     
     element.classList.remove("submit");
-    a1= "no introdujo numero";
+    a1= "No introdujo numero";
     document.getElementById("capa").innerHTML=a1;
     element.classList.add("submit2");
     }
