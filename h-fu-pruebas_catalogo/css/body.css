@@ -36,6 +36,7 @@ ul{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 15px 10px #998881;
    
 }
 .pedidos{
@@ -50,6 +51,7 @@ ul{
     display: grid;
     grid-template-columns:auto;
     grid-template-rows: auto;
+    box-shadow: 0 0 15px 10px #998881;
 }
 .zoom {
     transition: transform .2s; 
@@ -70,6 +72,7 @@ ul{
     grid-template-columns:auto;
     grid-template-rows: auto;  
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 15px 10px #998881;
 }
 .form{
     background-color: var(--blanco);
@@ -188,7 +191,6 @@ ul{
     margin-bottom: 0%;
     padding: 10px;
     font-size: 200%;
-    box-shadow: 0 0 15px 10px #998881;
 }
 
 .nav a{
