@@ -235,7 +235,15 @@ h4{
     width: auto;
     height: auto;
 }
+.cajota{
+    background-color: #9e8888;
+    color: #d8cece;
+    border-radius: 250px;
+    margin-right:150px;
+    margin-left:150px;
 
+
+}
  .logo{
         margin-left:40.5%;
     margin-right: auto;
