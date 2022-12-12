@@ -55,7 +55,7 @@ ul{
     transition: transform .2s; 
 }
 .zoom:hover {
-    transform: scale(1.5); 
+    transform: scale(1.15); 
     /*este sirve para poner zoom a las imagenes cuando pasas encima con el cursor*/
 }
 .informacion{
