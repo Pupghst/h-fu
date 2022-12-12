@@ -200,6 +200,11 @@ h4{
     text-align: center;
     font-size: larger;
 }
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #211e1e;
+    border-radius: 30px;
+}
 .box {
     display: flex;
     align-items: center;
