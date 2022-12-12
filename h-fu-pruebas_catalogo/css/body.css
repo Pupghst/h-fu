@@ -36,7 +36,6 @@ ul{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     font-family: 'Courier New', Courier, monospace;
-    box-shadow: 5px 5px #e8c096;
    
 }
 .pedidos{
@@ -189,6 +188,7 @@ ul{
     margin-bottom: 0%;
     padding: 10px;
     font-size: 200%;
+    box-shadow: 5px 5px #e8c096;
     
 }
 
