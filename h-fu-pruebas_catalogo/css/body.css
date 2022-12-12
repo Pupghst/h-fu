@@ -159,6 +159,7 @@ ul{
     border: 1px solid var(--negro);
     text-align: center;
     margin: 7px;
+    border-radius: 15px;
 }
 
 .catalogo h2{
