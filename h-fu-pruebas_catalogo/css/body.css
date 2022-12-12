@@ -182,7 +182,6 @@ ul{
     font-size: 80%;    
 }
 .nav{
-    background-color:var(--ligthgray);
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0%;
