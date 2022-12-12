@@ -56,7 +56,7 @@ ul{
 }
 .zoom:hover {
     transform: scale(1.5); 
-    /*este sirve para poner zoom a las imagenes cuando pasas encima con el cursors*/
+    /*este sirve para poner zoom a las imagenes cuando pasas encima con el cursor*/
 }
 .informacion{
     margin-top: 50px;
