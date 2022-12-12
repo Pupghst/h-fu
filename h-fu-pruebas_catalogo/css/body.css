@@ -188,13 +188,12 @@ ul{
     margin-bottom: 0%;
     padding: 10px;
     font-size: 200%;
-    
+    box-shadow: 0 0 15px 10px #998881;
 }
 
 .nav a{
     text-decoration: none;
     color: var(--negro);
-    box-shadow: 0 0 15px 10px #998881;
 }
 h4{ 
     background-color: var(--blanco);
